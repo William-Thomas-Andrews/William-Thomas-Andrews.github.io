@@ -11075,3 +11075,15 @@ html {
     justify-content: center;
     align-items: center;
 }
+
+#logo { 
+    float: left; 
+}
+
+#nav { 
+    width: 1500px; /* Too large, just an example */ 
+}
+
+.navigation { 
+    float: left; 
+}
