@@ -11011,12 +11011,18 @@ html {
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); /* Adjust background color as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    border-radius: 15px; /* Match the border radius of the images */
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11056,13 +11062,15 @@ html {
     width: 100%;
     height: auto;
     object-fit: cover;
-    aspect-ratio: 1 / 1;
-    max-width: 300px; /* Set a max width for images */
-    max-height: 300px; /* Set a max height for images */
-    border-radius: 15px; /* Optional: Add rounded corners */
+    border-radius: 15px;
 }
 
 .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    max-width: 300px; /* Set a max width for the portfolio items */
+    max-height: 300px; /* Set a max height for the portfolio items */
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
