@@ -122,8 +122,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 img {
     
-    padding: 1px;
-    width: 100px;
+    padding: 0px;
+    width: 130px;
   }
   
 h1, .h1 {
