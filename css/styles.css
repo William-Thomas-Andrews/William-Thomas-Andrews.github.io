@@ -8133,7 +8133,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background: linear-gradient(45deg, #000, rgba(255, 255, 255, 0.15));
 }
 
 .bg-secondary {
