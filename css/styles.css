@@ -11119,7 +11119,7 @@ html {
 }
 
 .contact-email:hover {
-    color: #3499CC;
+    color: #3499CC !important;
     text-decoration: underline;
 }
 
