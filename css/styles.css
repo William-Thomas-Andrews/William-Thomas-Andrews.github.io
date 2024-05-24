@@ -11089,7 +11089,7 @@ html {
 
 .page-section-heading {
     margin-top: 2rem;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
 }
 
@@ -11115,7 +11115,7 @@ html {
 .contact-email {
     color: #2c3e50;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .contact-email:hover {
@@ -11124,7 +11124,7 @@ html {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 0.75rem;
 }
 
